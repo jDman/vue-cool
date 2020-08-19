@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="mt-4 hello">
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
@@ -127,13 +127,13 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: "HelloWorld",
+  name: 'HelloWorld',
   props: {
-    msg: String
-  }
+    msg: String,
+  },
 });
 </script>
 
